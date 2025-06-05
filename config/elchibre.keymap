@@ -38,7 +38,7 @@
 
         colemakDHm {
             bindings = <
-                &kp Q        &kp W  &kp F  &kp P  &kp B      &kp J  &kp L  &kp U     &kp Y      &kp SEMICOLON
+                &bt BT_CLR   &kp W  &kp F  &kp P  &kp B      &kp J  &kp L  &kp U     &kp Y      &kp SEMICOLON
                 &lt 3 A      &kp R  &kp S  &kp T  &kp G      &kp M  &kp N  &kp E     &kp I      &kp O
                 &mt LSHIFT Z &kp X  &kp C  &kp D  &kp V      &kp K  &kp H  &kp COMMA &kp PERIOD &mt RSHIFT SLASH
                           &kp LALT &kp LALT &lt 1 SPACE      &lt 2 BACKSPACE &kp RWIN  &kp RWIN
