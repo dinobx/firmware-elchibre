@@ -1,9 +1,9 @@
 {
-  "id": "dactyl_cc",
-  "name": "dactyl_cc",
-  "keyboard_name": "",
+  "id": "elchibre",
+  "name": "elchibre",
+  "keyboard_name": "El Chibre",
   "url": "",
-  "maintainer": "qmk",
+  "maintainer": "zmk",
   "layouts": {
     "LAYOUT": {
       "layout": [
