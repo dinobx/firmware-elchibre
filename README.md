@@ -8,9 +8,10 @@ Ask questions and join the Discussion over at the [40%s Discord server](https://
 ## Customize your own Keymap
 Want to customize the keymap to your own preferences? Here's how:
 
-1. Fork this repository: Click the fork button at the top right of this page to copy it into your own GitHub account.
+1. Fork this repository:
+Click the fork button at the top right of this page to copy it into your own GitHub account.
 2. Clone your fork locally
-3. Edit your keymap
+3. Edit your keymap according to the [zmk documentation](https://zmk.dev/docs)
 4. Commit your changes and push them into your own fork.
 5. Go to GitHub Actions and download the firmware.zip found under Artefacts.
-6. Flash the .uf2 file to your own microchip found inside the firmware.zip folder
+6. Flash the .uf2 file found inside the firmware.zip folder to your microchip 
