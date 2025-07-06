@@ -8,14 +8,16 @@ jobs:
     name: Build ZMK
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      config-path: "zmk-elchibre"
-      fallback-binary: "elchibre_zmk.uf2"
+      config_path: "zmk-elchibre"
+      fallback_binary: "uf2"
+      archive_name: "elchibre-zmk"
   
   # Build ZMK Studio firmware
   build-zmk-studio:
     name: Build ZMK Studio
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      config-path: "zmk-studio-elchibre"
-      fallback-binary: "elchibre_vial.uf2"
-      build-matrix-path: "zmk-studio-elchibre/elchibre.zmk.yml"
+      config_path: "zmk-studio-elchibre"
+      fallback_binary: "uf2"
+      build_matrix_path: "zmk-studio-elchibre/elchibre.zmk.yml"
+      archive_name: "elchibre-zmk-studio"
