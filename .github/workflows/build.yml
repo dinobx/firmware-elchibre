@@ -8,7 +8,7 @@ jobs:
     name: Build ZMK
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      config_path: "zmk-elchibre"
+      config_path: "zmk-elchibre/config"
       fallback_binary: "uf2"
       archive_name: "elchibre-zmk"
   
