@@ -1,0 +1,9 @@
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_ELCHIBRE
+
+config ZMK_KEYBOARD_NAME
+    default "El Chibre"
+
+endif
