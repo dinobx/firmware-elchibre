@@ -1,5 +1,21 @@
+name: Build ZMK Firmware
+
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
+  # Build regular ZMK firmware
+  build-zmk:
+    name: Build ZMK
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      config-path: "zmk-elchibre"
+      fallback-binary: "elchibre_zmk.uf2"
+  
+  # Build ZMK Studio firmware
+  build-zmk-studio:
+    name: Build ZMK Studio
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      config-path: "zmk-studio-elchibre"
+      fallback-binary: "elchibre_vial.uf2"
+      build-matrix-path: "zmk-studio-elchibre/elchibre.zmk.yml"
