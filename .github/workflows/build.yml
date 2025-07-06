@@ -12,7 +12,7 @@ jobs:
       fallback_binary: "uf2"
       archive_name: "elchibre-zmk"
 
-  #Build ZMK Studio firmware
+  # Build ZMK Studio firmware
   build-zmk-studio:
     name: Build ZMK Studio
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
