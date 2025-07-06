@@ -1,10 +1,10 @@
 # El Chibre Firmware
 
-This repo is the official firmware repo for El Chibre. It hosts qmk, qmk-vial, zmk aswell as zmk-studio firmware for the El Chibre keyboard.
-You can find more info on this keyboard on the [Notion page](https://kbbd.notion.site/El-Chibre-1705a54918cf80c3ae1ae49d5c34f5cb)
+This repo is the official firmware repo for El Chibre. It hosts qmk, qmk-vial aswell as zmk firmware for the El Chibre keyboard. zmk-studio firmware is also planned and currently in the works.
+You can find more info on El Chibre on the [Notion page](https://kbbd.notion.site/El-Chibre-1705a54918cf80c3ae1ae49d5c34f5cb)
 Ask questions and join the Discussion over at the [40%s Discord server](https://kbbd.notion.site/El-Chibre-1705a54918cf80c3ae1ae49d5c34f5cb)
 
-## El Chibre QMK
+## [El Chibre QMK](qmk/elchibre)
 This folder contains everything needed to customize and buid QMK firmware for El Chibre.
 You can also just upload the precompiled qmk-vial firmware file directly.
 
@@ -15,7 +15,7 @@ Here's how to customize the QMK keymap to your own preferences:
 3. In a qmk environment use ```qmk compile -kb elchibre -km <keymap>``` to compile the qmk firmware (replace ```<keymap>``` with whatever you named your keymap)
 4. Flash the compiled .uf2 file found in the qmk root folder to your microchip.
 
-## El Chibre ZMK
+## [El Chibre ZMK](zmk-elchibre)
 This folder contains everything needed to customize and build ZMK firmware for El Chibre.
 You can also just upload the precompiled zmk-studio firmware file directly.
 
