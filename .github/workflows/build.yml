@@ -19,5 +19,4 @@ jobs:
     with:
       config_path: "zmk-studio-elchibre"
       fallback_binary: "uf2"
-      build_matrix_path: "zmk-studio-elchibre/elchibre.zmk.yml"
       archive_name: "elchibre-zmk-studio"

@@ -1,0 +1,5 @@
+# This file generates the GitHub Actions matrix for ZMK Studio builds.
+# ZMK Studio builds require both regular build configuration and studio features.
+
+board: [ "nice_nano_v2" ]
+shield: [ "elchibre", "settings_reset" ]
